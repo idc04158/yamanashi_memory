@@ -68,6 +68,7 @@ body{
   margin-right: 20px;
   margin-top: auto;
   margin-bottom: auto;
+  font-family: mont_light;
 }
 .nav_01:hover{
   color: rgb(96, 114, 163);
@@ -83,7 +84,7 @@ body{
 }
 .middle h1{
   font-family: mont_light;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 200px;
   text-align: center;
   margin: 0;
@@ -110,10 +111,10 @@ body{
 /*그리드 시작*/
 .grid_container{
   width: 100%;
+  -ms-flex-direction: row;
 }
 .grid_container .grid_1{
-  display: flex;
-  flex-wrap: wrap;
+  float: left;
   height: 200px;
   width: 200px;
   background-image: url(./images/01.png);
@@ -131,8 +132,7 @@ body{
   line-height: 150px;
 }
 .grid_container .grid_2{
-  display: flex;
-  flex-wrap: wrap;
+  float: left;
   height: 200px;
   width: 200px;
   background-image: url(./images/02.png);
