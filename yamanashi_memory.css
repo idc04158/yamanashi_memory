@@ -1,0 +1,151 @@
+@font-face {
+  font-family: mediumfont;
+  src: url(./fonts/MADE\ Mirage\ Medium\ PERSONAL\ USE.otf);
+}
+@font-face {
+  font-family: regularfont;
+  src: url(./fonts/MADE\ Mirage\ Regular\ PERSONAL\ USE.otf);
+}
+@font-face {
+  font-family: boldfont;
+  src: url(./fonts/MADE\ Mirage\ Bold\ PERSONAL\ USE.otf);
+}
+@font-face {
+  font-family: thinfont;
+  src: url(./fonts/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf);
+}
+@font-face {
+  font-family: blackfont;
+  src: url(./fonts/MADE\ Mirage\ black\ PERSONAL\ USE.otf);
+}
+@font-face {
+  font-family: mont_light;
+  src: url(./fonts/Mont-ExtraLightDEMO.otf);
+}
+@font-face {
+  font-family: mont_heavy;
+  src: url(./fonts/Mont-HeavyDEMO.otf);
+}
+body{
+  margin: 0px;
+}
+.nav_bar{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  background-color: rgb(217, 230, 248);
+  margin: 0;
+  background-image: url(./images/street.jpg);
+  background-position: center bottom;
+  background-size: cover;
+}
+.nav_title{
+  margin-left: 10px;
+  font-size: 27px;
+  margin-right: auto;
+  color: rgb(96, 114, 163);
+  text-decoration: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: mont_heavy;
+}
+.nav_01{
+  margin-left: auto;
+  font-size: 15px;
+  color: rgb(163, 199, 233);
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.nav_02{
+  font-size: 15px;
+  color: rgb(163, 199, 233);
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.nav_01:hover{
+  color: rgb(96, 114, 163);
+}
+.nav_02:hover{
+  color: rgb(96, 114, 163);
+}
+
+.middle{
+  height: 200px;
+  width: 100%;
+  background-color: black;
+}
+.middle h1{
+  font-family: mont_light;
+  font-size: 30px;
+  line-height: 200px;
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+
+/*메인 이미지*/
+.main{
+  background-image: url(./images/rest.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: gray;
+  height: 400px;
+  width: 100%;
+}
+.main h1{
+  font-family: mont_light;
+  margin: 0px;
+  text-align: center;
+  line-height: 400px;
+}
+
+/*그리드 시작*/
+.grid_container{
+  width: 100%;
+}
+.grid_container .grid_1{
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 200px;
+  background-image: url(./images/01.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 0;
+
+}
+.grid_container .grid_1 h1{
+  opacity: 0.6;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 150px;
+}
+.grid_container .grid_2{
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 200px;
+  background-image: url(./images/02.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 0;
+
+}
+.grid_container .grid_2 h1{
+  opacity: 0.6;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 150px;
+}
