@@ -116,7 +116,7 @@ body{
 }
 .grid_container h1{
   font-size: 15px;
-  font-family: mont_black;
+  font-family: mont_black ;
   opacity: 0.6;
   color: white;
   margin: 0;
