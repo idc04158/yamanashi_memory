@@ -111,41 +111,91 @@ body{
 /*그리드 시작*/
 .grid_container{
   width: 100%;
-  -ms-flex-direction: row;
+  display: flex;
+  flex-flow: row wrap;
 }
-.grid_container .grid_1{
-  float: left;
-  height: 200px;
-  width: 200px;
-  background-image: url(./images/01.png);
+.grid_container h1{
+  font-size: 30px;
+  font-family: mont_light;
+  opacity: 0.6;
+  color: white;
+  margin: 0;
+}
+.grid_container .grid{
+  height: 150px;
+  width: 150px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   margin: 0;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.grid_container .grid_1 h1{
-  opacity: 0.6;
-  color: white;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 150px;
+
+.grid_container .grid_1{
+  background-image: url(./images/01.png);
 }
 .grid_container .grid_2{
-  float: left;
-  height: 200px;
-  width: 200px;
   background-image: url(./images/02.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  margin: 0;
-
 }
-.grid_container .grid_2 h1{
-  opacity: 0.6;
-  color: white;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 150px;
+.grid_container .grid_3{
+  background-image: url(./images/03.png);
+}
+.grid_container .grid_4{
+  background-image: url(./images/04.png);
+}
+.grid_container .grid_5{
+  background-image: url(./images/05.png);
+}
+.grid_container .grid_6{
+  background-image: url(./images/06.png);
+}
+.grid_container .grid_7{
+  background-image: url(./images/07.png);
+}
+.grid_container .grid_8{
+  background-image: url(./images/08.png);
+}
+.grid_container .grid_9{
+  background-image: url(./images/09.png);
+}
+.grid_container .grid_10{
+  background-image: url(./images/10.png);
+}
+.grid_container .grid_11{
+  background-image: url(./images/11.png);
+}
+.grid_container .grid_12{
+  background-image: url(./images/12.png);
+}
+.grid_container .grid_13{
+  background-image: url(./images/13.png);
+}
+.grid_container .grid_14{
+  background-image: url(./images/14.png);
+}
+.grid_container .grid_15{
+  background-image: url(./images/15.png);
+}
+.grid_container .grid_16{
+  background-image: url(./images/16.png);
+}
+.grid_container .grid_17{
+  background-image: url(./images/17.png);
+}
+.grid_container .grid_18{
+  background-image: url(./images/18.png);
+}
+.grid_container .grid_19{
+  background-image: url(./images/19.png);
+}
+.grid_container .grid_20{
+  background-image: url(./images/20.png);
+}
+.grid_container .grid_21{
+  background-image: url(./images/21.png);
+}
+.grid_container .grid_22{
+  background-image: url(./images/22.png);
 }
