@@ -26,6 +26,10 @@
   font-family: mont_heavy;
   src: url(./fonts/Mont-HeavyDEMO.otf);
 }
+@font-face {
+  font-family: cafe24;
+  src: url(./fonts/Cafe24Oneprettynight.ttf);
+}
 body{
   margin: 0px;
 }
@@ -57,6 +61,7 @@ body{
   text-decoration: none;
   margin-top: auto;
   margin-bottom: auto;
+  font-family: mont_heavy;
 }
 
 .nav_02{
@@ -68,7 +73,7 @@ body{
   margin-right: 20px;
   margin-top: auto;
   margin-bottom: auto;
-  font-family: mont_light;
+  font-family: mont_heavy;
 }
 .nav_01:hover{
   color: rgb(96, 114, 163);
@@ -114,12 +119,17 @@ body{
   display: flex;
   flex-flow: row wrap;
 }
+.grid_container a{
+  text-decoration: none;
+}
 .grid_container h1{
   font-size: 15px;
-  font-family: mont_black;
+  font-family: mont_light;
   opacity: 0.6;
   color: white;
+  text-decoration: none;
   margin: 0;
+  transition: ease-out 1s;
 }
 .grid_container .grid{
   width: 33.3%;
@@ -131,11 +141,15 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: cubic-bezier(0.445, 0.05, 0.55, 0.95) 1s;
 }
 
 .grid_container .grid_1{
   background-image: url(./images/01.png);
+  
 }
+.grid h1:hover{scale: 1.5;}
+.grid:hover{transform: scale(1.2);}
 .grid_container .grid_2{
   background-image: url(./images/02.png);
 }
@@ -195,4 +209,35 @@ body{
 }
 .grid_container .grid_21{
   background-image: url(./images/21.png);
+}
+
+
+/*포스트들*/
+.post{
+  background-color: blanchedalmond;
+  font-family: mont_light;
+  font-size: 15px;
+  padding: 20px;
+  opacity: 1;
+}
+.post img{
+  float: left;  
+  margin-right: 20px;
+  margin-bottom: 10px;
+  height: 30%;
+  width: 30%;
+  opacity: 1;
+}
+.post p{
+  margin: 0;
+  font-family: cafe24;
+}
+.p_container{
+    background-color: white;
+    opacity: 0.8;
+    padding: 20px;
+    line-height: 30px;
+}
+.post_1{
+  background-image: url(./images/01.png) ;
 }
