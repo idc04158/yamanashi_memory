@@ -244,9 +244,11 @@ body{
     position: relative;
     top: 50px;
 }
-.p_container .all{
+.p_container p{
   height: 750px;
+  width: 100%;
   overflow: auto;
+  margin: 0;
 }
 
 /*nav*/
@@ -287,23 +289,40 @@ body{
   background-color: black;
 }
 
-.footer img{
+.footer .img img{
   width:10%;
   transition: ease 0.7s;
   margin: 2px;
 }
 
-.footer img:hover{
+.footer .img img:hover{
   transform: scale(1.2);
-  
 }
 .footer .present{
   opacity: 0.5;
 }
-.ins_img img{
+.footer .ins_img img{
   width: 20px;
   vertical-align: middle;
   padding-top: 10px;
   padding-right: 10px;
   float: right;
+}
+.footer .past_future{
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+.footer .past_future img{
+  width: 69px;
+  
+}
+.footer .past img:hover{
+  
+}
+.footer_p{
+  text-align: center;
+  color:white;
 }
