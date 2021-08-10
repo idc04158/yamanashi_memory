@@ -338,7 +338,7 @@ body{
   justify-content: center;
 }
 .footer .past_future img{
-  width: 80px;
+  width: 120px;
   margin: 1px;
 }
 .footer .past{
@@ -364,10 +364,10 @@ body{
   padding:0;
 }
 .footer .footer_p_post{
-  font-size: 3px;
+  font-size: 10px;
   line-height: 18px;
 }
 .footer .copyright p{
-  font-size: 5px;
+  font-size: 13px;
   margin-top: 50px;
 }
