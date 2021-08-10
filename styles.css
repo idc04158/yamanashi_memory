@@ -285,7 +285,7 @@ body{
 /*footer*/
 .post_container .footer{
   width: 100%;
-  height: 700px;
+  height: 800px;
   background-color: black;
 }
 
@@ -303,17 +303,22 @@ body{
   display: flex;
   justify-content:center;
 }
+.footer_images .fi_1 img{
+  margin: 3px 3px 0px 3px;
+}
 .footer_images .fi_2{
-  margin-bottom: 150px;
+  margin-bottom: 130px;
   padding-left: 20px;
   padding-right: 20px;
   display: flex;
   justify-content:center;
 }
+.footer_images .fi_2 img{
+  margin: 3px 3px 0px 3px;
+}
 .footer_images img{
-  width:50px;
+  width:70px;
   transition: ease 0.7s;
-  margin: 3px;
 }
 
 .footer .footer_images img:hover{
@@ -338,6 +343,10 @@ body{
 }
 .footer .ins_img img:hover{
   transform: scale(1.2);
+}
+.footer .ins_img{
+  padding-top: 50px;
+  border-top: white dashed 3px;
 }
 
 /*footer앞으로 가기/뒤로가기 */
