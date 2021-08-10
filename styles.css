@@ -285,29 +285,51 @@ body{
 /*footer*/
 .post_container .footer{
   width: 100%;
-  height: 300px;
+  height: 700px;
   background-color: black;
 }
 
-.footer .img img{
-  width:10%;
+/*footer 이미지*/
+.footer_images{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.footer .footer_images img{
+  width:50px;
   transition: ease 0.7s;
-  margin: 2px;
+  margin: 3px;
 }
 
-.footer .img img:hover{
+.footer .footer_images img:hover{
   transform: scale(1.2);
 }
 .footer .present{
   opacity: 0.5;
 }
+
+/*footer인스타*/
+
 .footer .ins_img img{
   width: 20px;
-  vertical-align: middle;
   padding-top: 10px;
   padding-right: 10px;
-  float: right;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  transition: ease 0.3s;
 }
+.footer .ins_img img:hover{
+  transform: scale(1.2);
+}
+
+/*footer앞으로 가기/뒤로가기 */
+
 .footer .past_future{
   padding: 30px;
   margin-left: auto;
@@ -316,13 +338,36 @@ body{
   justify-content: center;
 }
 .footer .past_future img{
-  width: 69px;
-  
+  width: 80px;
+  margin: 1px;
+}
+.footer .past{
+  margin-right: 15px;
+}
+.footer .future{
+  margin-left: 15px;
 }
 .footer .past img:hover{
-  
+  border: 1px white solid;
+  margin: 0;
 }
+.footer .future img:hover{
+  border: 1px white solid;
+  margin: 0;
+}
+
+/*footer 글*/
 .footer_p{
   text-align: center;
   color:white;
+  margin: 0;
+  padding:0;
+}
+.footer .footer_p_post{
+  font-size: 3px;
+  line-height: 18px;
+}
+.footer .copyright p{
+  font-size: 5px;
+  margin-top: 50px;
 }
